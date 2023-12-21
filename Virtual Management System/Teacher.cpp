@@ -41,6 +41,8 @@ void Teacher::linkGenerator(string course)//generated a link to join the class f
 {
 	cout << "www.virtualManagementSystem/LiveClass/" << course << "/join" << endl;
 	cout << "Link generated successfully" << endl;
+	system("PAUSE");
+	featuresForTeacher();
 }
 void Teacher::invitationForStudent()//sending a call to students that class has started.
 {
@@ -70,7 +72,9 @@ void Teacher::createAssignment()//creating the assignment for students.
 }
 void Teacher::createAcourse(string course)//to add a new course in the course list.
 {
-	//courses[Teacher::length.courses()]->append(course);						   //to add a course in array.
+	int a;
+	a = course.length() - 1;
+	courses[a].append(course);						   //to add a course in array.
 	cout<<"Course added successfully"<<endl;
 }
 void Teacher::displayOfCreatedCourses()//dispay the list of courses.

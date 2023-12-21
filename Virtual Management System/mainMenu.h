@@ -10,4 +10,3 @@ public:
     void Register() override;
     void starterOfApp();                        //display of starting the app 
 };
-

@@ -6,7 +6,7 @@ class mainMenu :
 private:
     int logInButton;
 public:
-    void Login() override;      
+    void Login() override;      //Hello
     void Register() override;
     void starterOfApp();                        //display of starting the app 
 };

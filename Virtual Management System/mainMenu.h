@@ -3,7 +3,7 @@
 class mainMenu :
     public Admin
 {
-private:
+private:                                  //Fuck you 
     int logInButton;
 public:
     void Login() override;      //Hello
